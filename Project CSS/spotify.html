@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./Assets/logo.png">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#"> Home </a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#"> Search </a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                    <img src="./Assets/library_icon.png">
+                    <a href="#"> Your Library </a>
+                    
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1"> Create your first Playlist</p>
+                        <p class="box-p2"> It's easy we will help you!!</p>
+                        <button class="badge"> Create Playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1"> Let's Find some Podcasts to follow</p>
+                        <p class="box-p2"> We'll keep you updated on new episodes</p>
+                        <button class="badge"> Browse podcast</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-left-icons">
+                    <img src="./Assets/backward_icon.png" alt="backward_icon">
+                    <img src="./Assets/forward_icon.png" alt="forward_icon" class="hide">
+                </div>
+                
+                <div class="sticky-right-icons">
+                    <button class="badge hide"> Explore Premium</button>
+                    <button class="badge dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i> Install App </button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+                
+            </div>
+
+            
+            <h2> Recently Played </h2>
+            <div class="card-container">
+                <div class="card">
+                <img src="./Assets/card1img.jpeg" class="card-img">
+                <p class="card-title"> Top-50 Global</p>
+                <p class="card-info"> Your daily updates of the most played tracks...</p>
+            </div></div>
+
+
+            <h2> Trending Now near You </h2>
+            <div class="card-container">
+                <div class="card">
+                <img src="./Assets/card2img.jpeg" class="card-img">
+                <p class="card-title"> Mahiye Jinna Sohna</p>
+                <p class="card-info"> Darshan Raval </p>
+                </div>
+
+                <div class="card">
+                <img src="./Assets/card3img.jpeg" class="card-img">
+                <p class="card-title"> Mere Paas Tum Ho</p>
+                <p class="card-info"> Lofi Mix-Old </p>
+                </div>
+
+                <div class="card">
+                <img src="./Assets/card4img.jpeg" class="card-img">
+                <p class="card-title"> Naa Ready</p>
+                <p class="card-info"> Anirudh Ravichander,Thalpathy Vijay, And... </p>
+                </div>
+
+                <div class="card">
+                <img src="./Assets/card3img.jpeg" class="card-img">
+                <p class="card-title"> Mere Paas Tum Ho</p>
+                <p class="card-info"> Lofi Mix-Old </p>
+                </div>
+
+                <div class="card">
+                <img src="./Assets/card4img.jpeg" class="card-img">
+                <p class="card-title"> Naa Ready</p>
+                <p class="card-info"> Anirudh Ravichander,Thalpathy Vijay, And... </p>
+                </div>
+        
+            </div>
+
+            <h2> Featured Charts </h2>
+            <div class="card-container">
+                <div class="card">
+                <img src="./Assets/card5img.jpeg" class="card-img">
+                <p class="card-title"> Top-Songs Global</p>
+                <p class="card-info"> Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                <img src="./Assets/card6img.jpeg" class="card-img">
+                <p class="card-title"> Top-Songs India</p>
+                <p class="card-info"> Your daily updates of the most played tracks...</p>
+                </div>
+
+                <div class="card">
+                <img src="./Assets/card1img.jpeg" class="card-img">
+                <p class="card-title"> Top-50 Global</p>
+                <p class="card-info"> Your daily updates of the most played tracks...</p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+
+            </div>
+        </div>
+        <div class="music-content">
+
+            <div class="left">
+                <img src="./Assets/card2img.jpeg" alt="#" class="left-img">
+                <div class="song-name">
+                <p class="music-title"> Mahiye Jinna Sohna</p>
+                <p class="music-info"> Darshan Raval </p>
+                </div>
+                <img src="./Homework Assets/album_icon1.png" class="music-icon" >
+                <img src="./Homework Assets/album_icon2.png" class="music-icon" >
+            </div>
+
+             <div class="player">
+                <div class="player-controls">
+                <img src="./Assets/player_icon1.png" class="music-icon1" >
+                <img src="./Assets/player_icon2.png" class="music-icon1" >
+                <img src="./Assets/player_icon3.png" class="music-icon2"  >
+                <img src="./Assets/player_icon4.png" class="music-icon1" >
+                <img src="./Assets/player_icon5.png" class="music-icon1" >
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <spna class="tot-time">3:33</span>
+                </div>
+
+                
+            </div>
+
+            <div class="right">
+                <img src="./Homework Assets/controls_icon1.png" class="music-icon" >
+                <img src="./Homework Assets/album_icon1.png" class="music-icon" >
+                <img src="./Homework Assets/controls_icon3.png" class="music-icon" >
+                <img src="./Homework Assets/controls_icon4.png" class="music-icon" >
+                <img src="./Homework Assets/controls_icon5.png" class="music-icon" >
+                <img src="line.jpg" style="height: 25px; width: 100px;" >
+            </div>
+        </div>
+    </div>
+</body>
+</html>
